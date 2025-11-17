@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\repos\\c-fps\\.git\\fpsprojectfiles\\source\\fpsprojectfiles\\variant_shooter\\weapons\\shooterpickup.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\repos\\c-fps\\.git\\fpsprojectfiles\\intermediate\\build\\win64\\x64\\fpsprojectfileseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\repos\\c-fps\\.git\\fpsprojectfiles\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fpsprojectfiles\\definitions.fpsprojectfiles.h",
+            "c:\\repos\\c-fps\\.git\\fpsprojectfiles\\source\\fpsprojectfiles\\variant_shooter\\weapons\\shooterpickup.h",
+            "c:\\repos\\c-fps\\.git\\fpsprojectfiles\\intermediate\\build\\win64\\unrealeditor\\inc\\fpsprojectfiles\\uht\\shooterpickup.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\spherecomponent.generated.h",
+            "c:\\repos\\c-fps\\.git\\fpsprojectfiles\\source\\fpsprojectfiles\\variant_shooter\\weapons\\shooterweaponholder.h",
+            "c:\\repos\\c-fps\\.git\\fpsprojectfiles\\intermediate\\build\\win64\\unrealeditor\\inc\\fpsprojectfiles\\uht\\shooterweaponholder.generated.h",
+            "c:\\repos\\c-fps\\.git\\fpsprojectfiles\\source\\fpsprojectfiles\\variant_shooter\\weapons\\shooterweapon.h",
+            "c:\\repos\\c-fps\\.git\\fpsprojectfiles\\intermediate\\build\\win64\\unrealeditor\\inc\\fpsprojectfiles\\uht\\shooterweapon.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

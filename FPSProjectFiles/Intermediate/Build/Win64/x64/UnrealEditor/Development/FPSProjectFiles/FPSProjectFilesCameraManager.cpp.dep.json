@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\repos\\c-fps\\.git\\fpsprojectfiles\\source\\fpsprojectfiles\\fpsprojectfilescameramanager.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\repos\\c-fps\\.git\\fpsprojectfiles\\intermediate\\build\\win64\\x64\\fpsprojectfileseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\repos\\c-fps\\.git\\fpsprojectfiles\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fpsprojectfiles\\definitions.fpsprojectfiles.h",
+            "c:\\repos\\c-fps\\.git\\fpsprojectfiles\\source\\fpsprojectfiles\\fpsprojectfilescameramanager.h",
+            "c:\\repos\\c-fps\\.git\\fpsprojectfiles\\intermediate\\build\\win64\\unrealeditor\\inc\\fpsprojectfiles\\uht\\fpsprojectfilescameramanager.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
