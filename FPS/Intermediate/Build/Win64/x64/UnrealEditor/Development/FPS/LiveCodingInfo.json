@@ -1,9 +1,0 @@
-{
-	"RemapUnityFiles": 
-	{
-		"Module.FPS.gen.cpp.obj": [
-			"FPS.init.gen.cpp.obj",
-			"PlayerCharacter.gen.cpp.obj"
-		]
-	}
-}
