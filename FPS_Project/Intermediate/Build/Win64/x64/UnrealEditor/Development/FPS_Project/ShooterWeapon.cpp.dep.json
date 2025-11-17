@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\repos\\c-fps\\fps_project\\source\\fps_project\\variant_shooter\\weapons\\shooterweapon.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\repos\\c-fps\\fps_project\\intermediate\\build\\win64\\x64\\fps_projecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\repos\\c-fps\\fps_project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fps_project\\definitions.fps_project.h",
+            "c:\\repos\\c-fps\\fps_project\\source\\fps_project\\variant_shooter\\weapons\\shooterweapon.h",
+            "c:\\repos\\c-fps\\fps_project\\source\\fps_project\\variant_shooter\\weapons\\shooterweaponholder.h",
+            "c:\\repos\\c-fps\\fps_project\\intermediate\\build\\win64\\unrealeditor\\inc\\fps_project\\uht\\shooterweaponholder.generated.h",
+            "c:\\repos\\c-fps\\fps_project\\intermediate\\build\\win64\\unrealeditor\\inc\\fps_project\\uht\\shooterweapon.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetmathlibrary.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl",
+            "c:\\repos\\c-fps\\fps_project\\source\\fps_project\\variant_shooter\\weapons\\shooterprojectile.h",
+            "c:\\repos\\c-fps\\fps_project\\intermediate\\build\\win64\\unrealeditor\\inc\\fps_project\\uht\\shooterprojectile.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

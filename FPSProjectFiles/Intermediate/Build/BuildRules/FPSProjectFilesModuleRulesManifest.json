@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"C:\\Repos\\C-FPS\\.git\\FPSProjectFiles\\Source\\FPSProjectFiles\\FPSProjectFiles.Build.cs",
-		"C:\\Repos\\C-FPS\\.git\\FPSProjectFiles\\Source\\FPSProjectFiles.Target.cs",
-		"C:\\Repos\\C-FPS\\.git\\FPSProjectFiles\\Source\\FPSProjectFilesEditor.Target.cs"
-	],
-	"EngineVersion": "5.6.1"
-}

@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\repos\\c-fps\\fps_project\\intermediate\\build\\win64\\unrealeditor\\inc\\fps_project\\uht\\fps_project.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\repos\\c-fps\\fps_project\\intermediate\\build\\win64\\x64\\fps_projecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\repos\\c-fps\\fps_project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\fps_project\\definitions.fps_project.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
