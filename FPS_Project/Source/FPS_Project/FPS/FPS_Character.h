@@ -22,12 +22,18 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+private:
+	UPROPERTY()
+	class UUFPS_CharacterMovementComponent* OurMovementComponent;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	virtual UPawnMovementComponent* GetMovementComponent() const override;
 
 protected:
 	UPROPERTY(EditAnywhere, Category = Input)
@@ -44,4 +50,5 @@ protected:
 
 	void MovePlayer(const FInputActionInstance& Instance);
 	void RotatePlayer(const FInputActionInstance& Instance);
+	void PlayerShoot(const FInputActionInstance& Instance);
 };
