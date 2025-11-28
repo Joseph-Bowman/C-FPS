@@ -9,9 +9,12 @@
 /**
  * 
  */
+
 UCLASS()
 class FPS_PROJECT_API UUFPS_CharacterMovementComponent : public UPawnMovementComponent
 {
 	GENERATED_BODY()
-	
+
+	public:
+		virtual void TickComponent(float DeltaTime, enum ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 };
