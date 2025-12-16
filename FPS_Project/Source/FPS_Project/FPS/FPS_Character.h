@@ -14,28 +14,12 @@ class FPS_PROJECT_API AFPS_Character : public ACharacter
 {
 	GENERATED_BODY()
 
-public:
-	// Sets default values for this character's properties
-	AFPS_Character();
-
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
 private:
 	UPROPERTY()
 	class UUFPS_CharacterMovementComponent* OurMovementComponent;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+public:
 
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-	virtual UPawnMovementComponent* GetMovementComponent() const override;
-
-protected:
 	UPROPERTY(EditAnywhere, Category = Input)
 	class UInputMappingContext* MainInputMap;
 
@@ -48,7 +32,25 @@ protected:
 	UPROPERTY(EditAnywhere, Category = Input)
 	class UInputAction* IA_Shoot;
 
+
+public:
+	// Sets default values for this character's properties
+	AFPS_Character();
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+	// Called to bind functionality to input
 	void MovePlayer(const FInputActionInstance& Instance);
 	void RotatePlayer(const FInputActionInstance& Instance);
 	void PlayerShoot(const FInputActionInstance& Instance);
+
+public:	
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	virtual UPawnMovementComponent* GetMovementComponent() const override;
 };
